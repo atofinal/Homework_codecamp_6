@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework#3 Phonebook</title>
+    <style>
+        body {
+            margin: 0;            
+            font-family: Roboto,sans-serif;
+        }
+        .box-contain {
+            display: flex;
+            min-height: 100vh;
+            justify-content: center;            
+        }
+        .box-column {            
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        .box-row  {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }        
+        .box-row > :first-child{
+            padding-right: 20px;
+            min-width: 150px;
+        }
+        .box {
+            border:dashed 1px #3f51b5;
+            min-width: 120px;            
+        }
+        .box > p {
+            color: #e60250;
+            margin: 0;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Homework #3 ให้สร้าง phonebook.html ในแบบ responsive 
+    เพื่อสร้างเป็นสมุดโทรศัพท์บน smart phone
+    โดยส่งไฟล์ไว้ที่ github.io
+    ใช้ web browser บน smartphone เข้าไปที่ url
+    <ชื่อ user>.github.io/phonebook.html (design ตามภาพ) --> 
+
+    <div class="box-contain">
+        <div class="box-column">
+            <div class="box-row">
+                <div class="box"><p><b>Name</b></p></div>
+                <div class="box"><p><b>Tel no.</b></p></div>
+            </div>
+            <div class="box-row">
+                <div class="box"><p>TA Tle</p></div>
+                <div class="box"><p>083-4284942</p></div>
+            </div>
+            <div class="box-row">
+                <div class="box"><p>KFC</p></div>
+                <div class="box"><p>1150</p></div>
+            </div>
+            <div class="box-row">
+                <div class="box"><p>Pizza Hut</p></div>
+                <div class="box"><p>1112</p></div>
+            </div>
+            <div class="box-row">
+                <div class="box"><p>Yayoi-ยาโยอิ</p></div>
+                <div class="box"><p>1642</p></div>
+            </div>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

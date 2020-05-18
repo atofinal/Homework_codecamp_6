@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework#2 booking</title>
+
+    <style>
+        body{
+            margin: 0;            
+            font-family: Roboto,sans-serif;
+        }
+        .box-contain {
+            display: flex;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-box {            
+            display: flex; 
+            flex-direction: column;                         
+        }
+        .txtCurrency{
+            color: red;
+        }
+        /* .boxs{
+
+        } */
+
+
+
+        .boxs-footer{
+            background-color: whitesmoke;
+            padding: 30px;
+            border: solid 1px #d2d2d2;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Homework #2 ให้สร้าง form ชื่อ booking.html โดยมีหน้าตา ดังรูป
+    Note : 
+    1. ห้ามใช้ Bootstrap 
+    2. สนใจเฉพาะส่วนที่วงสีแดง
+    3. upload ขึ้น github.io     -->
+
+
+<!-- ## delete comment when finish =============================================== -->
+<p>ยังไม่เสร็จ... เดี่ยวกลับมาทำต่อครับ</p>
+
+    <div class="box-contain">
+        <form action="#" class="form-box">
+            <div class="boxs">
+                <div class="box-row">
+                    <label>Flying From</label>
+                    <select name="flyingFrom">
+                        <option value="karachi1">karachi pakistan1</option>
+                        <option value="karachi2">karachi pakistan2</option>
+                        <option value="karachi3">karachi pakistan3</option>
+                        <option value="karachi4">karachi pakistan4</option>
+                        <option value="karachi5">karachi pakistan5</option>
+                    </select>
+                </div>
+                <div class="box-row">
+                    <label>To</label>
+                    <select name="flyingTo">
+                        <option value="Islamabad1">Islamabad 1</option>
+                        <option value="Islamabad2">Islamabad 2</option>
+                        <option value="Islamabad3">Islamabad 3</option>
+                        <option value="Islamabad4">Islamabad 4</option>
+                        <option value="Islamabad5">Islamabad 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="boxs">
+                <div class="box-row">
+                    <label>Departing:</label>
+                    <input type="date" name="Departing">
+                </div>
+                <div class="box-row">
+                    <label>Returning:</label>
+                    <input type="date" name="Returning">
+                </div>
+            </div>
+            <div class="boxs">
+                <div class="box-row">
+                    <div>
+                        <label>Adult</label>
+                        <input type="number" id="quantity" name="Adult" min="1" max="100">
+                    </div>
+                    <div>
+                        <label>Child</label>
+                        <input type="number" id="quantity" name="Child" min="0" max="100">
+                    </div>
+                    <div>
+                        <label>Infant</label>
+                        <input type="number" id="quantity" name="Infant" min="1" max="100">
+                    </div>
+                    <div>
+                        <label class="txtCurrency">Currency</label>                        
+                        <select name="Currency">
+                            <option value="">PKR</option>
+                            <option value="">US</option>
+                            <option value="">EU</option>
+                            <option value="">CH</option>
+                            <option value="">RUS</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="boxs-footer">
+                <div class="box-row">
+                    <button type="button">Search</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>
