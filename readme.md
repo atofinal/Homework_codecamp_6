@@ -8,7 +8,8 @@ Online CodeCamp#6 Fullstack JavaScript
 # HTML homework 1
 https://atofinal.github.io/homeworkhtml/
 
-# HTML homework 1
-https://atofinal.github.io/homeworkhtml/# Homework_codecamp_6
-# Homework_codecamp_6
-# Homework_codecamp_6
+# HTML homework 2
+
+# HTML homework 3
+
+

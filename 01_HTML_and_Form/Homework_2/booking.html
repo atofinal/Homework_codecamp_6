@@ -9,6 +9,7 @@
         body{
             margin: 0;            
             font-family: Roboto,sans-serif;
+            font-weight: bold;
         }
         .box-contain {
             display: flex;
@@ -18,23 +19,66 @@
         }
         .form-box {            
             display: flex; 
-            flex-direction: column;                         
+            flex-direction: column;            
+            border: solid 1px #d2d2d2;
+            border-radius: 5px;
+            padding-top:30px;
         }
         .txtCurrency{
             color: red;
         }
-        /* .boxs{
-
-        } */
-
-
-
-        .boxs-footer{
-            background-color: whitesmoke;
-            padding: 30px;
-            border: solid 1px #d2d2d2;
-
+        .boxs{
+            display: flex; 
+            flex-direction: row;
         }
+        .box-row {
+            padding: 20px;
+        }
+        .boxs-footer{
+            background-color: whitesmoke;            
+            border: solid 1px #d2d2d2;
+        }
+        .box-group1 select, input {
+            border-radius: 3px;
+            border: solid 1px #bbbbbb;            
+            padding: 5px;
+        }
+        .box-group2{
+            display: flex;
+            flex-wrap: wrap;
+            margin-right:0;
+        }
+        .box-group2 input {
+            border-radius: 3px;
+            border: solid 1px #bbbbbb;
+            width: 58px;
+            padding: 5px;
+        } 
+        .box-group2 select {
+            border-radius: 3px;
+            border: solid 1px #bbbbbb;
+            width: 70px;
+            padding: 5px;
+        }
+        .group2 {
+            margin-right:20px;
+        }
+        .group2 > :last-child {
+            margin-right:0;
+            padding-right:0;
+        }
+        button {
+            padding: 8px 25px;
+            background-image: linear-gradient(#ff8d00, #ff2300);
+            color: white;
+            font-weight: bold;
+            border-radius: 4px;
+            box-shadow: none;
+            border: solid 1px red;
+        }  
+        label {
+            line-height: 1.5;
+        }   
     </style>
 </head>
 <body>
@@ -45,61 +89,59 @@
     3. upload ขึ้น github.io     -->
 
 
-<!-- ## delete comment when finish =============================================== -->
-<p>ยังไม่เสร็จ... เดี่ยวกลับมาทำต่อครับ</p>
-
     <div class="box-contain">
         <form action="#" class="form-box">
             <div class="boxs">
-                <div class="box-row">
-                    <label>Flying From</label>
+                <div class="box-row box-group1">
+                    <label>Flying From</label><br>
                     <select name="flyingFrom">
-                        <option value="karachi1">karachi pakistan1</option>
-                        <option value="karachi2">karachi pakistan2</option>
-                        <option value="karachi3">karachi pakistan3</option>
-                        <option value="karachi4">karachi pakistan4</option>
-                        <option value="karachi5">karachi pakistan5</option>
+                        <option value="bangkok1">bangkok, thailand</option>
+                        <option value="bangkok2">bangkok, thailand2</option>
+                        <option value="bangkok3">bangkok, thailand3</option>
+                        <option value="bangkok4">bangkok, thailand4</option>
+                        <option value="bangkok5">bangkok, thailand5</option>
                     </select>
                 </div>
-                <div class="box-row">
-                    <label>To</label>
+                <div class="box-row box-group1">
+                    <label>To</label><br>
                     <select name="flyingTo">
-                        <option value="Islamabad1">Islamabad 1</option>
-                        <option value="Islamabad2">Islamabad 2</option>
-                        <option value="Islamabad3">Islamabad 3</option>
-                        <option value="Islamabad4">Islamabad 4</option>
-                        <option value="Islamabad5">Islamabad 5</option>
+                        <option value="chiangmai1">chiangmai, thailand</option>
+                        <option value="chiangmai2">chiangmai, thailand2</option>
+                        <option value="chiangmai3">chiangmai, thailand3</option>
+                        <option value="chiangmai4">chiangmai, thailand4</option>
+                        <option value="chiangmai5">chiangmai, thailand5</option>
                     </select>
                 </div>
             </div>
             <div class="boxs">
-                <div class="box-row">
-                    <label>Departing:</label>
+                <div class="box-row box-group1">
+                    <label>Departing:</label><br>
                     <input type="date" name="Departing">
                 </div>
                 <div class="box-row">
-                    <label>Returning:</label>
+                    <label>Returning:</label><br>
                     <input type="date" name="Returning">
                 </div>
             </div>
+
             <div class="boxs">
-                <div class="box-row">
-                    <div>
-                        <label>Adult</label>
-                        <input type="number" id="quantity" name="Adult" min="1" max="100">
+                <div class="box-row box-group2">
+                    <div class="group2">
+                        <label>Adult</label><br>
+                        <input type="number" name="Adult" min="1" max="100" value="1">
                     </div>
-                    <div>
-                        <label>Child</label>
-                        <input type="number" id="quantity" name="Child" min="0" max="100">
+                    <div class="group2">
+                        <label>Child</label><br>
+                        <input type="number" name="Child" min="0" max="100" value="0">
                     </div>
-                    <div>
-                        <label>Infant</label>
-                        <input type="number" id="quantity" name="Infant" min="1" max="100">
+                    <div class="group2">
+                        <label>Infant</label><br>
+                        <input type="number" name="Infant" min="1" max="100" value="0">
                     </div>
-                    <div>
-                        <label class="txtCurrency">Currency</label>                        
+                    <div class="group2">
+                        <label class="txtCurrency">Currency</label><br>                        
                         <select name="Currency">
-                            <option value="">PKR</option>
+                            <option value="">TH</option>
                             <option value="">US</option>
                             <option value="">EU</option>
                             <option value="">CH</option>
