@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab keyframes Animate</title>
+    <style>
+        .animColor {
+            color:lime;
+            font-size: 30px;
+            animation: animColor 4s infinite;            
+        }
+        @keyframes animColor {
+            0%   {color: red;}
+            25%  {color: yellow;}
+            50%  {color: blue;}
+            100% {color: green;}
+        }
+        .animWidth {
+            background: rgb(57, 224, 210);
+            width: 50px;
+            animation: animWidth 4s infinite;           
+        }
+        @keyframes animWidth {
+            0%   {width: 100px;}
+            25%  {width: 150px;}
+            50%  {width: 200px;}
+            100% {width: 120px;}
+        }
+        .animBorder {            
+            border-bottom:solid 2px black;
+            width: 100px;
+            animation: animBorder 4s infinite;            
+        }
+        @keyframes animBorder {
+            0%   {width: 150px;}
+            25%  {width: 250px;}
+            50%  {width: 100px;}
+            100% {width: 200px;}
+        }
+        .animBackground {
+            background: green;
+            width: 200px;
+            height: 30px;
+            animation: animBackground 4s infinite;            
+        }
+        @keyframes animBackground {
+            0%   {background: red;}
+            25%  {background: yellow;}
+            50%  {background: blue;}
+            100% {background: green;}
+        }
+        .animPosition {
+            position: relative;
+            animation: animPosition 5s infinite;            
+        }
+        @keyframes animPosition {
+            from {left: 0px;}
+            to {left: 555px;}
+        }
+        .animHide {
+            opacity: 1;
+            animation: animHide 1.5s infinite;
+        }
+        @keyframes animHide {
+            0%   {opacity: 0;}
+            25%  {opacity: 0.5;}
+            50%  {opacity: 1;}
+            100% {opacity: 0.5;}            
+        }
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <p>
+            • ลองกำหนด @keyframes แบบ from to <br> 
+            • ลองกำหนด @keyframes แบบ % <br>
+            • ลองกำหนด @keyframes แบบ from to <br>
+        </p>
+        <p class="animColor">• color  </p>
+        <div class="animWidth"><p>• width </p></div>
+        <p class="animBorder">• border </p>
+        <p class="animBackground">• background-color </p>
+        <p class="animPosition">• position-relative </p>
+        <p class="animHide">• show and hide </p>
+        
+    </div>
+
+    <form action="">
+        <br>
+        <button type="submit">Refresh</button>
+    </form>
+    
+        
+</body>
+</html>

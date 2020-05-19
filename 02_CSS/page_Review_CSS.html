@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Review CSS</title>
+    <style>
+        body {            
+            color: #2a4958;
+            display: flex;
+            background-color: whitesmoke;          
+        }
+        .mid {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+            width: 90%;
+            padding-bottom: 90px;
+        }
+        table , tr , th , td{
+            border: solid 1px steelblue;            
+            border-spacing: 0;                       
+        }
+        th {
+            font-size: 18px;
+            text-align: center;
+        }
+        td {
+            padding-left:10px; 
+        }
+        
+    </style>
+</head>
+<body>    
+
+    <div class="mid">
+        <h1>CSS</h1>
+        <p>
+        • CSS syntax ประกอบด้วยอะไรบ้าง<br>
+        • การเขียน CSS มีกี่แบบอะไรบ้าง<br>
+        • selector มีกี่แบบอะไรบ้าง<br>
+        • combinator มีกี่แบบอะไรบ้าง<br>
+        • ให้สร้าง page review CSS<br>
+        • ใช้ table ในการตอบโจทย์แต่ละข้อ<br>
+        • ขนาดฟอนด์หัวข้อต้องใหญ่กว่า ข้อมูล<br>
+        • ให้แต่ละกลุ่มออกมาอธิบายการใช้ combinator อย่างละ 1 ชนิด 
+        </p>       
+        <div>
+            <table style="width:100%">
+                <tr>
+                  <th>คำถาม</th>
+                  <th>คำตอบ</th>                  
+                </tr>
+                <tr>
+                    <td>CSS syntax ประกอบด้วยอะไรบ้าง</td>
+                    <td>selector, property, value</td>
+                </tr>
+                <tr>
+                    <td>การเขียน CSS มีกี่แบบอะไรบ้าง</td>
+                    <td>มี 3 แบบ  Inline, Internal และ External</td>
+                </tr>
+                <tr>
+                    <td>selector มีกี่แบบอะไรบ้าง</td>
+                    <td>หลายแบบ อาทิเช่น...<br>
+                        .class <br>
+                        #id <br>
+                        * <br>
+                        element <br>
+                        element,element </td>
+                </tr>
+                <tr>
+                    <td>combinator มีกี่แบบอะไรบ้าง</td>
+                    <td>Descendant combinators { {} เขียน Selector เพื่อสั่งการทำงานทั้งหมด}<br><br>
+                        Child combinators { > การสั่งงานเฉพาะ "child" เท่านั้น}<br><br>
+                        Sibling combinators -Adjacent sibling combinator { + ที่อยู่ถัดไป 1 เท่านั้น}<br><br>
+                        Sibling combinators -General sibling combinator { ~ ที่อยู่ถัดไปทั้งหมด}</td>
+                </tr>
+              </table>
+        </div>
+
+        <br><hr><br>
+
+        <p>
+            • property และ value คืออะไรแตกต่างกันอย่างไร <br>
+            • property ที่สอนใน precamp มีกี่กลุ่มอะไรบ้าง <br>
+            • value unit มีกี่ประเภทอะไรบ้างแต่ละ ประเภทคืออะไร <br>
+            • ให้แต่ละกลุ่มออกมาอธิบายเพื่อนๆหน้าชั้นเรียน
+        </p>
+        <div>
+            <table style="width:100%">
+                <tr>
+                    <th>คำถาม</th>
+                    <th>คำตอบ</th>                  
+                </tr>
+                <tr>
+                    <td>property และ value คืออะไรแตกต่างกันอย่างไร</td>
+                    <td>
+                        Property คือ ส่วนของคุณสมบัติที่เราต้องการให้แสดง <br><br>
+                        Value คือ ค่าที่เราต้องการให้แสดง เช่น ตัวอักษรสีแดง , แบบอักษร ฯลฯ
+                    </td>
+                </tr>
+                <tr>
+                    <td>property ที่สอนใน precamp มีกี่กลุ่มอะไรบ้าง</td>
+                    <td>
+                        5 กลุ่ม
+                        <br> property for content: color , size , font , text, list-style-type, Height, Width, background
+                        <br><br> property for border : border, table
+                        <br><br> property for padding : padding (top right buttom left)
+                        <br><br> property for margin : margin (top right buttom left)
+                        <br><br> property for element : display, Height, Width, Position, Float, Align, Flex, Grid
+                    </td>
+                </tr>
+                <tr>
+                    <td>value unit มีกี่ประเภทอะไรบ้างแต่ละ ประเภทคืออะไร</td>
+                    <td>
+                        2 ประเภท
+                        <br>• Absolute lenghts 
+                        <br>cm เซนติเมตร
+                        <br>mm มิลลิเมตร
+                        <br>in นิ้ว
+                        <br>px พิกเซล 1/96 นิ้ว
+                        <br>pt พอยท์ 1/72 นิ้ว
+                        <br>pc พิคาล 1/12 นิ้ว
+                        <br><br>• relative lenghts
+                        <br>em เท่าขนาดฟอนต์ของ element
+                        <br>ex เท่าความสูงของฟอนต์ของ element
+                        <br>ch ความกว้างของตัวหนังสือใน parent element
+                        <br>rem เท่าขนาดฟอนต์ของ root element
+                        <br>vh เปอร์เซ็นต์ความสูงหน้าจอ
+                        <br>vw เปอร์เซ็นต์ความกว้างหน้าจอ
+                        <br>vmin เปอร์เซ็นต์ของ view point ต่ำสุด
+                        <br>vmax เปอร์เซ็นต์ของ view point สูงสุด
+                        <br>% เปอร์เซ็นต์ของ parent element
+
+                    </td>
+                </tr>              
+            
+            </table>
+        </div>
+
+        <br><hr><br>
+
+        <p>
+            • value ใน display property มีอะไรบ้าง <br>
+            • grid และ flex แตกต่างกันอย่างไร <br>
+            • justify and align แตกต่างกันอย่างไร <br>            
+            • position คืออะไร และ มีอะไรบ้าง <br>
+            • z-index คืออะไรใช้อย่างไร <br>
+
+            • แต่ละกลุ่มออกมานำเสนอหน้าห้อง <br>
+            • ให้ทำตัวอย่างการใช้ position มาทุก property <br>
+            • ให้แต่ละกลุ่มทำหน้าตา page ตาม link ด้านล่าง <br>
+            • แต่ละคนพิมพ์ได้คนละ 10-15 นาที <br>
+            • แต่ละกลุ่มออกมาพรีเซ็นต์หน้าห้อง <br>
+            • ออนไลน์ให้ทำตามกลุ่มที่ 1
+        </p>
+        <div>
+            <table style="width:100%">
+                <tr>
+                    <th>คำถาม</th>
+                    <th>คำตอบ</th>                  
+                </tr>
+                <tr>
+                    <td>value ใน display property มีอะไรบ้าง</td>
+                    <td>inline
+                        ,block
+                        ,contents
+                        ,flex
+                        ,grid
+                        ,inline-blockit
+                        ,inline-flex
+                        ,inline-grid
+                        ,inline-table
+                        ,list-item
+                        ,run-in
+                        ,table
+                        ,table-caption
+                        ,table-column-group
+                        ,table-header-group
+                        ,table-footer-group
+                        ,table-row-group
+                        ,table-cell
+                        ,table-column
+                        ,table-row
+                        ,none
+                        ,initial
+                        ,inherit</td>
+                </tr>
+                <tr>
+                    <td>grid และ flex แตกต่างกันอย่างไร</td>
+                    <td>
+                        layout 2D and layout 1D  <br>
+                        ความง่ายในการใช้ จำนวนการเขียนเยอะขึ้นแตกต่างกันเล็กน้อย ความยืดยุ่น <br>
+                        ควบคุมโครงสร้างง่ายกว่าเล็กน้อย ใช้แบบซับซ้อนได้ง่าย                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>justify and align แตกต่างกันอย่างไร</td>
+                    <td>ทิศทางแกนแนวนอน กับ ทิศทางแกนแนวตั้ง</td>
+                </tr>                
+                <tr>
+                    <td>position คืออะไร และ มีอะไรบ้าง</td>
+                    <td>bottom, clip, left, position, right, top, z-index</td>
+                </tr>
+                <tr>
+                    <td>z-index คืออะไรใช้อย่างไร</td>
+                    <td>กำหนดตำแหน่งบนล่างของ position ตัวเลขมากสุดจะอยู่บนสุด </td>
+                </tr>
+
+            </table>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
+

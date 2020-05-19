@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Team challenge</title>
+    <style>
+        body {
+            color: #2a4958;
+            display: flex;
+            /* background-color: whitesmoke;          */
+        }
+        .page {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+        }
+        .border-form {
+            border: solid 2px #2a4958;
+        }
+        form {
+            border: solid 7px rgba(224, 224, 224, 0.7);
+            padding: 15px 20px 5px 20px;
+        }
+        form > div > div {
+            margin-top: 10px;
+        }
+        .spcTxt {
+            color: red;
+        }
+        .btnMark {
+            background: linear-gradient(122deg, #fff1df, #d9b682);
+            border: solid 1px #d9b682;
+            border-radius: 3px;
+            font-weight: bold;
+            color: #795548;
+        }
+        .bgText {
+            background: whitesmoke;
+            height: 35px;
+            border-top: solid 2px #dcdcdcad;
+            font-weight: bold;
+        }
+        .txtSetup {
+            margin-top: 8px;
+            margin-left: 7px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+        <div>
+            <p><i>Online Course โจทย์...</i></p>
+            <p>• <del>ให้แต่ละกลุ่มทำหน้าตา page ตาม link ด้านล่าง</del></p>
+            <p>• <del>แต่ละคนพิมพ์ได้คนละ 8-10 นาที</del></p>
+            <p>• <del>แต่ละกลุ่มออกมาพรีเซ็นต์หน้าห้อง</del></p>
+            <p>• ออนไลน์ให้ทำตามกลุ่มพี่เจียง</p>
+        </div>
+
+        <div class="border-form">
+             <form action="#"> <!-- # design same Example -->
+                <div class="in-form">
+                    <div><label>Name <span class="spcTxt">*</span>: <span
+                                style="margin-right: 80px;"></span></label><input type="text" required> <input
+                            type="button" value="?" class="btnMark"></div>
+
+                    <div><label for="">Tab Text <span class="spcTxt">*</span>: <span style="margin-right: 63px;"></span></label><input type="text" required>
+                        <input type="button" value="?" class="btnMark"></div>
+
+                    <div><label for="">URL <span class="spcTxt">*</span>: <span style="margin-right: 88px;"></span></label><span
+                            class="inputURL">http://www.wizehive.com/webform/</span><input type="text" required></div>
+
+                    <div class="bgText">
+                        <p class="txtSetup">FORM SETUP</p>
+                    </div>
+
+                    <div><label for="">Form: <span style="margin-right: 97px;"></span></label><select name="" style="width:172px;">
+                            <option value=""></option>
+                        </select> <input type="button" value="Edit"></div>
+
+                    <div><label for="">Logo: <span style="margin-right: 50px;"></span><span style="margin-right: 50px;"></span></label><span style="margin-right: 59px;"> no logo uploaded </span><input type="button"
+                            value="Upload Logo"> </div>
+
+                    <div><label for="">Templat Text: <span style="margin-right: 47px;"></span></label><select name="" style="width:172px;">
+                            <option value="">Engliah</option>
+                        </select> <input type="button" value="Edit"></div>
+
+                    <div><label for="">Review Form: <span style="margin-right: 44px;"></span></label><select name="" style="width:172px;">
+                            <option value="">Default</option>
+                        </select></div>
+
+                    <div><label for="">Review Socre: <span style="margin-right: 42px;"></span></label><select name="" style="width:172px;">
+                            <option value="">Rating</option>
+                        </select> <input type="button" value="Reload Fields"></div>
+
+                    <div><label for="">Scoring Type: <span style="margin-right: 46px;"></span></label><select name="" style="width:172px;">
+                            <option value="">Average</option>
+                        </select></div>
+
+                    <div><label for="">Max Score: <span style="margin-right: 62px;"></span></label><input type="number" value="4.00"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

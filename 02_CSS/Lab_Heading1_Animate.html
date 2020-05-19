@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Heading1 Animate</title>
+    <style>
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: relative;
+            animation: box1 5s;
+            animation-delay: 0.5s;
+            animation-direction: reverse;
+            animation-iteration-count: 1;
+        }
+        @keyframes box1 {
+            0%   {background: red; left: 0px; bottom: 0px;}
+            25%  {background: yellow; left: 200px; bottom: 0px;}
+            50%  {background: blue; left: 200px; bottom: 200px;}
+            75%  {background: green; left: 0px; bottom: 200px;}
+            100% {background: red; left: 0px; bottom: 0px;}
+        }
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background: green;
+            position: relative;
+            animation: box2 5s;
+            animation-delay: 1s;
+            animation-direction: alternate;
+            animation-iteration-count: 1;
+        }
+        @keyframes box2 {
+            0%   {background: red; left: 0px; top: 0px;}
+            25%  {background: yellow; left: 200px; top: 0px;}
+            50%  {background: blue; left: 200px; top: 200px;}
+            75%  {background: green; left: 0px; top: 200px;}
+            100% {background: red; left: 0px; top: 0px;}
+        }
+        .box3 {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            position: relative;
+            animation: box3 5s;
+            animation-delay: 2s;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: 1;
+        }
+        @keyframes box3 {
+            0%   {background: red; left: 0px; top: 0px;}
+            25%  {background: yellow; left: 200px; top: 0px;}
+            50%  {background: blue; left: 200px; top: 200px;}
+            75%  {background: green; left: 0px; top: 200px;}
+            100% {background: red; left: 0px; top: 0px;}
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            • ให้สร้าง animation ที่มีการใช้ delay และ direction <br>
+            • กำหนด direction ทั้งสามแบบเพื่อเปรียบเทียบ <br>
+            • ให้การกำหนดการเคลื่อนจำนวน 5 ครั้ง <br>
+            • ให้กำหนด keyframes เป็น 5 ช่วง            
+        </p>
+    </div>
+
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+
+    <form action="">
+        <br>
+        <button type="submit">Refresh</button>
+    </form>
+    
+</body>
+</html>
