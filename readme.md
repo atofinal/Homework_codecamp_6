@@ -3,8 +3,8 @@ surasak somboons(ato)
 
 Online CodeCamp#6 Fullstack JavaScript
 
-[All Code in Folder ]
-[All Link Website Homework...]
+[All **Code** in Folder ]  
+[All **Link** Homework  (github io)...]
 # HTML homework 1
 https://atofinal.github.io/homeworkhtml/
 
