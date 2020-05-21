@@ -13,7 +13,7 @@
         + สีเมนู แตกต่างและหนา
         + Service link ด้านล่างมีบางอันสีส้มๆ 
 > `answer.`  
-> [Link page size A4](https://docs.google.com/document/d/1ypyTTQn6lO1edtqtqPDtF2OSXJ75WED-oFapn4Qe020/edit?usp=sharing)
+> [>> Link page size A4](https://docs.google.com/document/d/1ypyTTQn6lO1edtqtqPDtF2OSXJ75WED-oFapn4Qe020/edit?usp=sharing)
 
 ---
 
@@ -26,8 +26,7 @@
 + Accessible: เข้าถึงได้ง่าย
 **ที่มีไม่ครบ 6 ข้อ**  
 > `answer.`  
-> เว็บไซต์ที่มีไม่ครบ 6 ข้อ:  <http://www.thefacesoffacebook.com/>  
-> `(true= ใช่, false= ไม่ใช่)`  
+> เว็บไซต์ที่มีไม่ครบ 6 ข้อ: >> <http://www.thefacesoffacebook.com/>  
 > (true) Useful: มีประโยชน์  
 > (false) Usable: ใช้งานง่าย  
 > (false) Findable: หาสิ่งที่ต้องการได้ง่าย  
@@ -47,7 +46,7 @@
 > `answer.`  
 > a. ปีนี้เป็นปีแรกที่เคย debug python  
 > b. ผมไปเที่ยวต่างจังหวัดทุกเดือน  
-> c. ใช้เวลาเรียนหัวข้อ JavaScript ที่ https://www.freecodecamp.org/learn อยู่ 3-4 สัปดาห์ เพราะภาษาอังกฤษไม่ถนัด แต่ความรู้ที่ได้รับมันดีมากจริงๆ  
+> c. ใช้เวลาเรียนหัวข้อ JavaScript ที่ freecodecamp.org/learn อยู่ 3-4 สัปดาห์ เพราะภาษาอังกฤษไม่ถนัด แต่ความรู้ที่ได้รับมันดีมากจริงๆ  
 
 ---
 
@@ -57,6 +56,6 @@
     + Silence Brain Storm - 3 นาที ให้ได้ไอเดียมากที่สุด `idea on post it`
     + เลือก 1 idea ที่จะนำมาทำกันใน 2 วันนี้ 
 > `answer.`  
-> [Link: Silence Brain Storm](https://miro.com/app/board/o9J_ksUP5jQ=/) <https://miro.com/app/board/o9J_ksUP5jQ=/>  
+> [>> Link: Silence Brain Storm](https://miro.com/app/board/o9J_ksUP5jQ=/)  
 > เลือก idea: **Image Story** Project name: **I+S**  
-> `doing...` [Link project]() "ภาพและข้อมูล เป็นแค่การยกตัวอย่าง"  
+> `doing...` [>> Link project]() "ภาพและข้อมูล เป็นแค่การยกตัวอย่าง"  
