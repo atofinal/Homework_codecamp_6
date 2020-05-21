@@ -2,7 +2,7 @@
 
 ## Lab งานคู่  วิเคราะห์ UX UI ของเว็บไซต์ แค่หน้าแรก  
 + 1.จับคู่
-+ 2.เขียน รหัสพนักงาน + ชื่อ สกุล ลง A4 - 1 คู่ ต่อ 1 แผ่น 
++ 2.เขียน รหัสพนักงาน + ชื่อ สกุล ลง **A4** - 1 คู่ ต่อ 1 แผ่น 
 + 3.ไปที่ Website https://mahidol.ac.th/th/
 + 4.วิเคราะห์ แล้วเขียนออกมา 
     + UX 5 หัวข้อ เช่น
@@ -26,14 +26,14 @@
 + Accessible: เข้าถึงได้ง่าย
 **ที่มีไม่ครบ 6 ข้อ**  
 > `answer.`  
-> เว็บไซต์ที่มีไม่ครบ 6 ข้อ:  <http://www.thefacesoffacebook.com/>
-> `(true= ใช่, false= ไม่ใช่)`
-> (true) Useful: มีประโยชน์
-> (false) Usable: ใช้งานง่าย
-> (false) Findable: หาสิ่งที่ต้องการได้ง่าย
-> (true) Credible: น่าเชื่อถือ
-> (true) Desirable: น่าใช้
-> (false) Accessible: เข้าถึงได้ง่าย 
+> เว็บไซต์ที่มีไม่ครบ 6 ข้อ:  <http://www.thefacesoffacebook.com/>  
+> `(true= ใช่, false= ไม่ใช่)`  
+> (true) Useful: มีประโยชน์  
+> (false) Usable: ใช้งานง่าย  
+> (false) Findable: หาสิ่งที่ต้องการได้ง่าย  
+> (true) Credible: น่าเชื่อถือ  
+> (true) Desirable: น่าใช้  
+> (false) Accessible: เข้าถึงได้ง่าย  
 
 ---
 
@@ -45,9 +45,9 @@
 2. คนในทีมคนอื่นๆ ให้จับผิดว่าเรื่องไหนเรื่องโกหก  
 3. ใครที่ไม่ถูกจับผิดเลย ได้รับรางวัล  
 > `answer.`  
-> a. ปีนี้เป็นปีแรกที่เคย debug python
-> b. ผมไปเที่ยวต่างจังหวัดทุกเดือน
-> c. ใช้เวลาเรียนหัวข้อ JavaScript ที่ https://www.freecodecamp.org/learn อยู่ 3-4 สัปดาห์ เพราะภาษาอังกฤษไม่ถนัด แต่ความรู้ที่ได้รับมันดีมากจริงๆ
+> a. ปีนี้เป็นปีแรกที่เคย debug python  
+> b. ผมไปเที่ยวต่างจังหวัดทุกเดือน  
+> c. ใช้เวลาเรียนหัวข้อ JavaScript ที่ https://www.freecodecamp.org/learn อยู่ 3-4 สัปดาห์ เพราะภาษาอังกฤษไม่ถนัด แต่ความรู้ที่ได้รับมันดีมากจริงๆ  
 
 ---
 
@@ -57,6 +57,6 @@
     + Silence Brain Storm - 3 นาที ให้ได้ไอเดียมากที่สุด `idea on post it`
     + เลือก 1 idea ที่จะนำมาทำกันใน 2 วันนี้ 
 > `answer.`  
-> [Link: Silence Brain Storm](https://miro.com/app/board/o9J_ksUP5jQ=/) <https://miro.com/app/board/o9J_ksUP5jQ=/>
-> เลือก idea: **Image Story** Project name: **I+S**
-> `doing...` [Link project]() "ภาพและข้อมูล เป็นแค่การยกตัวอย่าง"
+> [Link: Silence Brain Storm](https://miro.com/app/board/o9J_ksUP5jQ=/) <https://miro.com/app/board/o9J_ksUP5jQ=/>  
+> เลือก idea: **Image Story** Project name: **I+S**  
+> `doing...` [Link project]() "ภาพและข้อมูล เป็นแค่การยกตัวอย่าง"  
