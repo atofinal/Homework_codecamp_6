@@ -1,16 +1,16 @@
-### CodeCamp # 6
+# CodeCamp # 6
 surasak somboons(ato)
 
 Online CodeCamp#6 Fullstack JavaScript
 
-[All **Code** in Folder ]  
-[All **Link** Homework  (github io)...]
-# HTML homework 1
+[All **Code** in `path Folder` ]  
+[All **Link** Homework  (`github.io`)...]
+### HTML homework 1
 https://atofinal.github.io/homeworkhtml/
 
-# HTML homework 2
+### HTML homework 2
 https://atofinal.github.io/homeworkhtml/booking.html
 
-# HTML homework 3
+### HTML homework 3
 https://atofinal.github.io/homeworkhtml/phonebook.html
 
