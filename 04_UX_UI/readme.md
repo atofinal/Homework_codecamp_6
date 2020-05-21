@@ -17,13 +17,13 @@
 
 ---
 
-## Lab หาเว็บไซต์ 1 อัน ให้ครอบคลุม  
+## Lab หาเว็บไซต์ 1 อัน ให้ครอบคลุม ที่มีไม่ครบ 6 ข้อ   
 + Useful: มีประโยชน์
 + Usable: ใช้งานง่าย
 + Findable: หาสิ่งที่ต้องการได้ง่าย
 + Credible: น่าเชื่อถือ
 + Desirable: น่าใช้
-+ Accessible: เข้าถึงได้ง่าย
++ Accessible: เข้าถึงได้ง่าย  
 **ที่มีไม่ครบ 6 ข้อ**  
 > `answer.`  
 > เว็บไซต์ที่มีไม่ครบ 6 ข้อ: >> <http://www.thefacesoffacebook.com/>  
@@ -58,4 +58,5 @@
 > `answer.`  
 > [>> Link: Silence Brain Storm](https://miro.com/app/board/o9J_ksUP5jQ=/)  
 > เลือก idea: **Image Story** Project name: **I+S**  
-> `doing...` [>> Link project]() "ภาพและข้อมูล เป็นแค่การยกตัวอย่าง"  
+> [>> Link project]() "ภาพและข้อมูล เป็นแค่การยกตัวอย่าง"   
+> `doing...`  
