@@ -1,17 +1,23 @@
-# Review CSS
+# Review CSS  
+> 📙 `answer.`  
 https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Review_CSS.html
 
-# Team challenge
+# Team challenge  
+> 📙 `answer.`  
 https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html
 
-# Lab keyframes Animate
+# Lab keyframes Animate  
+> 📙 `answer.`  
 https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_keyframes_animate.html
 
-# Lab Heading1 Animate
+# Lab Heading1 Animate  
+> 📙 `answer.`  
 https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading1_Animate.html
 
-# Lab Heading2 Animate
+# Lab Heading2 Animate  
+> 📙 `answer.`  
 https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading2_Animate.html
 
-# Lab @media query
+# Lab @media query  
+> 📙 `answer.`  
 https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_media_query.html
