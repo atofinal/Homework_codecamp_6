@@ -52,7 +52,7 @@ Online CodeCamp#6 Fullstack JavaScript
 > [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html)  
 > [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html)   
 
-### slide 17
+### slide 17 //doing0000000000000000000000000000000000000000000000000  
 > 📙 `answer.`  
 > [Code Link >>]()  
 > [View Link >>]()  
@@ -72,12 +72,12 @@ Online CodeCamp#6 Fullstack JavaScript
 > [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading1_Animate.html)  
 > [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading1_Animate.html)  
 
-### Lab Heading1 Animate > slide 57  
+### Lab Heading2 Animate > slide 57  
 > 📙 `answer.`  
 > [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading2_Animate.html)  
 > [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading2_Animate.html)  
 
-### responsive page (bootstrap) > slide 35
+### responsive page (bootstrap) > slide 35 //doing0000000000000000000000000000000000  
 > 📙 `answer.`  
 > [Code Link >>]()  
 > [View Link >>]()  
