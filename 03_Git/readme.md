@@ -3,14 +3,14 @@
 
 ## Lab New reprository  
 > 📙 `answer.`  
-> สร้างและเชื่อมแล้ว ตอนนี้อยู่ใน [New reprository /git-test](https://github.com/atofinal/git-test)
+> สร้างและเชื่อมแล้ว ตอนนี้อยู่ใน [New reprository... /git-test](https://github.com/atofinal/git-test)
 
 
 
 ## Lab Markdown  
 > 📙 `answer.`  
 > ### Header
-> This Link <https://github.com/atofinal/git-test>  
+> [This Link](https://github.com/atofinal/git-test) <https://github.com/atofinal/git-test>  
 > **ตัวหนา** _ตัวเอียง_  
 > > blockquote
 ---
