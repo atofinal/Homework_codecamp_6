@@ -1,23 +1,45 @@
-# Review CSS (view)  
-> 📙 `answer.`  
-https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Review_CSS.html
+# Review CSS (Folder)  
 
-# Team challenge  
-> 📙 `answer.`  
-https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html
+### Review > slide 5  
+> 📙 `answer.`  [Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Review_CSS.html#a)  
 
-# Lab keyframes Animate  
-> 📙 `answer.`  
-https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_keyframes_animate.html
+### Review > slide 7  
+> 📙 `answer.`  [Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Review_CSS.html#b)  
 
-# Lab Heading1 Animate  
-> 📙 `answer.`  
-https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading1_Animate.html
+### Review > slide 15 - 16  
+> 📙 `answer.`  [Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Review_CSS.html#c)  
 
-# Lab Heading2 Animate  
+### Team challenge1 > slide 10  
 > 📙 `answer.`  
-https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading2_Animate.html
+> [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html)  
+> [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html)   
 
-# Lab @media query  
+### slide 17 //doing0000000000000000000000000000000000000000000000000  
 > 📙 `answer.`  
-https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_media_query.html
+> [Code Link >>]()  
+> [View Link >>]()  
+
+### Lab @media query > slide 34  
+> 📙 `answer.`  
+> [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_media_query.html)  
+> [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_media_query.html)  
+
+### Lab keyframes Animate > slide 48   
+> 📙 `answer.`  
+> [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_keyframes_animate.html)  
+> [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_keyframes_animate.html)  
+
+### Lab Heading1 Animate > slide 52  
+> 📙 `answer.`  
+> [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading1_Animate.html)  
+> [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading1_Animate.html)  
+
+### Lab Heading2 Animate > slide 57  
+> 📙 `answer.`  
+> [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading2_Animate.html)  
+> [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading2_Animate.html)  
+
+### responsive page (bootstrap) > slide 35 //doing0000000000000000000000000000000000  
+> 📙 `answer.`  
+> [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/responsivePage.html)  
+> [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/responsivePage.html)  

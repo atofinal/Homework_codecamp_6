@@ -1,13 +1,12 @@
-# All Code this Lab on new repositories 
-> Link >> <https://github.com/atofinal/git-test>
+# 03 git (Folder)
 
-## Lab New reprository  
+## Lab New reprository > slide 27    
 > 📙 `answer.`  
 > สร้างและเชื่อมแล้ว ตอนนี้อยู่ใน [New reprository... /git-test](https://github.com/atofinal/git-test)
 
 
 
-## Lab Markdown  
+## Lab Markdown > slide 34    
 > 📙 `answer.`  
 > ### Header
 > [This Link](https://github.com/atofinal/git-test) <https://github.com/atofinal/git-test>  
@@ -15,7 +14,7 @@
 > > blockquote
 ---
 
-## Lab git flow  
+## Lab git flow > slide 43  
 > 📙 `answer.`  
 > สร้างไฟล์ gitflow.txt แล้วอยู่ใน path นี้ครับ  
 > ทดสอบเรียบร้อย push, delete file text, and restore  
@@ -23,28 +22,28 @@
 
 
 
-## Lab branch  
+## Lab branch > slide 50  
 > 📙 `answer.`  
 > ทดสอบเรียบร้อย  
 > Link >> <https://github.com/atofinal/git-test/branches>
 
 
 
-## Lab git merge  
+## Lab git merge > slide 56  
 > 📙 `answer.`  
 > ทดสอบเรียบร้อย  
 > [Link event Merge](https://github.com/atofinal/git-test/commit/9a19054fc4490e49bf6788d3d5b4580a734886aa#diff-30087da60dcbf4b25422381524540f60)
 
 
 
-## Lab rebase  
+## Lab rebase > slide 65  
 > 📙 `answer.`  
 > ทดสอบเรียบร้อย  
 > [Link event Rebase](https://github.com/atofinal/git-test/commit/d41fa8eb30b27bd0f79e8564bd6e52b2b908bac6)
 
 
 
-## Lab git ignore  
+## Lab git ignore > slide 69  
 > 📙 `answer.`  
 > ทดสอบเรียบร้อย  
 > [Link ignore file HTML](https://github.com/atofinal/git-test/commit/af031cac6c7fbc0d6674d4c00fdbdd6b18eb16d0#diff-4f0d3e00d5c0fb5bb7dd91df339271dc)  
