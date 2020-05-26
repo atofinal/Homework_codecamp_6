@@ -14,10 +14,10 @@
 > [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html)  
 > [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html)   
 
-### slide 17 //doing0000000000000000000000000000000000000000000000000  
+### slide 17   
 > 📙 `answer.`  
-> [Code Link >>]()  
-> [View Link >>]()  
+> [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/slide_17.html)  
+> [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/slide_17.html)  
 
 ### Lab @media query > slide 34  
 > 📙 `answer.`  
@@ -39,7 +39,7 @@
 > [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading2_Animate.html)  
 > [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/Lab_Heading2_Animate.html)  
 
-### responsive page (bootstrap) > slide 35 //doing0000000000000000000000000000000000  
+### responsive page (bootstrap) > slide 35 
 > 📙 `answer.`  
 > [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/responsivePage.html)  
 > [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/responsivePage.html)  

@@ -1,5 +1,6 @@
 # CodeCamp # 6
 surasak somboons(ato)
+<https://atofinal.github.io/homeworkhtml/>
 
 Online CodeCamp#6 Fullstack JavaScript
 
@@ -52,10 +53,10 @@ Online CodeCamp#6 Fullstack JavaScript
 > [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html)  
 > [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html)   
 
-### slide 17 //doing0000000000000000000000000000000000000000000000000  
+### slide 17
 > 📙 `answer.`  
-> [Code Link >>]()  
-> [View Link >>]()  
+> [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/slide_17.html)  
+> [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/slide_17.html)  
 
 ### Lab @media query > slide 34  
 > 📙 `answer.`  
@@ -156,12 +157,11 @@ Online CodeCamp#6 Fullstack JavaScript
 > 📙 `answer.`  
 > [View Link: Silence Brain Storm >>](https://miro.com/app/board/o9J_ksUP5jQ=/)  
 > เลือก idea: **Image Story** Project name: **I+S**  
-> [web site: Workshop คิด Startup >>](https://atofinal.github.io/homeworkhtml/Startup%20Project/index.html) "ภาพและข้อมูล เป็นแค่การยกตัวอย่าง"  
+> [Web site: Workshop คิด Startup >>](https://atofinal.github.io/homeworkhtml/Startup%20Project/index.html) "ภาพและข้อมูล เป็นแค่การยกตัวอย่าง"  
 
 ### 
 > 📙 `answer.`  
-> [Code Link >>]()  
-> [View Link >>]() 
+
 
 
 
