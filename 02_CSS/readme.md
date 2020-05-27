@@ -14,7 +14,7 @@
 > [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html)  
 > [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/page_Team_challenge.html)   
 
-### slide 17   
+### slide 17 (hard job)   
 > 📙 `answer.`  
 > [Code Link >>](https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/slide_17.html)  
 > [View Link >>](https://htmlpreview.github.io/?https://github.com/atofinal/Homework_codecamp_6/blob/master/02_CSS/slide_17.html)  
