@@ -422,7 +422,7 @@ console.log(method_draw(3));
 console.log(method_draw(4));
 ```  
 2. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
-![](/05_JavaScript/test_s/02.png?raw=false)
+![](/05_JavaScript/test_s/02.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawB(n){
@@ -440,7 +440,7 @@ console.log(method_drawB(3));
 console.log(method_drawB(4));
 ```  
 3. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
-![](/05_JavaScript/test_s/03.png)
+![](/05_JavaScript/test_s/03.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawC(n){
@@ -457,7 +457,8 @@ console.log(method_drawC(2));
 console.log(method_drawC(3));
 console.log(method_drawC(4));
 ```  
-4. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+4. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/04.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawD(n){
@@ -474,7 +475,8 @@ console.log(method_drawD(2));
 console.log(method_drawD(3));
 console.log(method_drawD(4));
 ```  
-5. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+5. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/05.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawE(n){
@@ -491,7 +493,8 @@ console.log(method_drawE(2));
 console.log(method_drawE(3));
 console.log(method_drawE(4));
 ```  
-6. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+6. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/06.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawF(n){
@@ -510,7 +513,8 @@ console.log(method_drawF(2));
 console.log(method_drawF(3));
 console.log(method_drawF(4));
 ```  
-7. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+7. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/07.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawG(n){
@@ -529,7 +533,8 @@ console.log(method_drawG(2));
 console.log(method_drawG(3));
 console.log(method_drawG(4));
 ```  
-8. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+8. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/08.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawH(n){
@@ -546,7 +551,8 @@ console.log(method_drawH(2));
 console.log(method_drawH(3));
 console.log(method_drawH(4));
 ```  
-9. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+9. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/09.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawI(n){
@@ -563,7 +569,8 @@ console.log(method_drawI(2));
 console.log(method_drawI(3));
 console.log(method_drawI(4));
 ```  
-10. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+10. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/10.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawJ(n){
@@ -580,7 +587,8 @@ console.log(method_drawJ(2));
 console.log(method_drawJ(3));
 console.log(method_drawJ(4));
 ```  
-11. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+11. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/11.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawK(n){
@@ -598,7 +606,8 @@ console.log(method_drawK(2));
 console.log(method_drawK(3));
 console.log(method_drawK(4));
 ```  
-12. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+12. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/12.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawL(n){
@@ -616,7 +625,8 @@ console.log(method_drawL(2));
 console.log(method_drawL(3));
 console.log(method_drawL(4));
 ```  
-13. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+13. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/13.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawM(n){
@@ -634,7 +644,8 @@ console.log(`%c${method_drawM(2)}`,'font-weight: bold; font-size: 1.2rem');
 console.log(`%c${method_drawM(3)}`,'font-weight: bold; font-size: 1.2rem');
 console.log(`%c${method_drawM(4)}`,'font-weight: bold; font-size: 1.2rem');
 ```  
-14. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+14. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/14.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawN(n){
@@ -652,7 +663,8 @@ console.log(`%c${method_drawN(2)}`,'font-weight: bold; font-size: 1.2rem');
 console.log(`%c${method_drawN(3)}`,'font-weight: bold; font-size: 1.2rem');
 console.log(`%c${method_drawN(4)}`,'font-weight: bold; font-size: 1.2rem');
 ```  
-15. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+15. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/15.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawO(n){
@@ -678,7 +690,8 @@ console.log(method_drawO(3));
 console.log(method_drawO(4));
 ```  
 16. โจทย์ข้อ 16 หาย น่าจะพิมพ์ข้าม  
-17. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+17. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/17.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawQ(n){
@@ -696,7 +709,8 @@ console.log(method_drawQ(2));
 console.log(method_drawQ(3));
 console.log(method_drawQ(4));
 ```  
-18. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+18. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/18.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawR(n){
@@ -714,7 +728,8 @@ console.log(method_drawR(2));
 console.log(method_drawR(3));
 console.log(method_drawR(4));
 ```  
-19. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+19. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/19.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawS(n){
@@ -739,7 +754,8 @@ console.log(method_drawS(2));
 console.log(method_drawS(3));
 console.log(method_drawS(4));
 ```  
-20. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+20. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/20.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawT(n){
@@ -771,7 +787,8 @@ console.log(method_drawT(2));
 console.log(method_drawT(3));
 console.log(method_drawT(4));
 ```  
-21. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+21. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/21.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawU(n){
@@ -793,7 +810,8 @@ console.log(method_drawU(2));
 console.log(method_drawU(3));
 console.log(method_drawU(4));
 ```  
-22. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+22. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/22.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawV(n){
@@ -815,7 +833,8 @@ console.log(method_drawV(2));
 console.log(method_drawV(3));
 console.log(method_drawV(4));
 ```  
-23. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+23. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/23.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawW(n){
@@ -848,7 +867,8 @@ console.log(method_drawW(2));
 console.log(method_drawW(3));
 console.log(method_drawW(4));
 ```  
-24. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+24. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/24.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 function method_drawX(n){
