@@ -439,7 +439,8 @@ console.log(method_drawB(2));
 console.log(method_drawB(3));
 console.log(method_drawB(4));
 ```  
-3. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+3. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/03.png)
 > 📙 `answer.`  
 ```javascript
 function method_drawC(n){
