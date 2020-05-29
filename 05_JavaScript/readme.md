@@ -412,9 +412,9 @@ switch() {
 ``` 
 
 ### แบบฝึกหัดพิเศษ ฟังก์ชัน > slide 78-100
-1. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
-![image](https://github.com/atofinal/Homework_codecamp_6/tree/master/05_JavaScript/test_s/01.png)
-![image](/test_s/01.png)
+1. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](https://github.com/atofinal/Homework_codecamp_6/blob/master/05_JavaScript/test_s/01.png?raw=true)
+![](/05_JavaScript/test_s/01.png?raw=true)
 > 📙 `answer.`  
 ```javascript
 const method_draw = (n) => String.prototype.padStart(n,'*');
