@@ -413,7 +413,6 @@ switch() {
 
 ### แบบฝึกหัดพิเศษ ฟังก์ชัน > slide 78-100
 1. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
-![](https://github.com/atofinal/Homework_codecamp_6/blob/master/05_JavaScript/test_s/01.png?raw=true)
 ![](/05_JavaScript/test_s/01.png?raw=true)
 > 📙 `answer.`  
 ```javascript
@@ -422,7 +421,8 @@ console.log(method_draw(2));
 console.log(method_draw(3));
 console.log(method_draw(4));
 ```  
-2. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้
+2. จงเขียน method draw(int n) ให้ print ออกมาในกรณี n มีค่าต่างๆ ได้ผลลัพดังนี้  
+![](/05_JavaScript/test_s/02.png?raw=false)
 > 📙 `answer.`  
 ```javascript
 function method_drawB(n){
