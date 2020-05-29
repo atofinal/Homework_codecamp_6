@@ -106,7 +106,7 @@
 
 ---
 
-## Lab - Moodboard  
+## Lab - Moodboard > part2 slide 97     
 + ทำ Moodboard ใส่ Figma ใส่เป็นอีก File
     + หัวข้อครอบคลุม
     + color palette

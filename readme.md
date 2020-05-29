@@ -179,7 +179,7 @@ Online CodeCamp#6 Fullstack JavaScript
 > [sample Link App 2 >>](https://www.behance.net/gallery/90966919/Veggie-Shop-App?tracking_source=curated_galleries_interaction)  
 > [sample Link App 3 >>](https://www.pinterest.com/pin/345158758943587914/)  
 
-### Lab - Moodboard  
+### Lab - Moodboard > part2 slide 97    
 > 📙 `answer.` 
 > [Link Moodboard figma >>](https://www.figma.com/proto/4y9mLUHSSG05rUmj9Hx1Q9/Moodboard?node-id=1%3A2&scaling=min-zoom)   
 
@@ -187,9 +187,25 @@ Online CodeCamp#6 Fullstack JavaScript
 
 ---
 🌎🌎🌎🌎🌎
-## 05 JavaSCript  
+## 05 JavaSCript & JQuery  
 
 ### 
 > 📙 `answer.`  
-> [Code Link >>]()  
-> [View Link >>]()   
+
+
+
+---
+🌎🌎🌎🌎🌎🌎
+## 06 Database 
+
+### 
+> 📙 `answer.`  
+
+
+
+---
+🌎🌎🌎🌎🌎🌎🌎
+## 07 Node.js 
+
+### 
+> 📙 `answer.`  
