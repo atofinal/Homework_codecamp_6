@@ -95,9 +95,9 @@ let d = b++;
 
 ### 6.5. แบบฝึกหัด > slide 132-135   
 + 1.Browser จะโชว์ข้อความ “Hello Codecamp #5” ไหม
-> if ("0") {
->   alert("Hello Codecamp #5");
-> }
+> if ("0") {  
+>   alert("Hello Codecamp #5");  
+> }  
 > 📙 `answer.`  
 ```
     'แสดง ข้อความ "Hello Codecamp #5"'
