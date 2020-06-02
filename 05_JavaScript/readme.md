@@ -1,6 +1,6 @@
 # JavaScript (Folder)
 
-## part1
+## Basic part1
 ### Lab 1 ตัวแปรและประเภทของข้อมูล > slide 43  
 + Lab 1
     + ให้ประกาศตัวแปรชื่อ human และ name
@@ -212,7 +212,7 @@ const test2_021 = true != true          // false
     console.log(text_string);
 ```  
 
-## part2
+## Basic part2
 ### ตัวดำเนินการแบบตรรกะ > slide 25-29  
 + 1.คำสั่งต่อไปนี้จะแสดงค่าเป็นอะไร
 > 📙 `answer.`  
@@ -933,4 +933,325 @@ ask(
 let ask_arrow = (question, yes, no) => (confirm(question)) ? yes() : no() ;
 ask_arrow("Do you agree?", () => (alert("You agreed.")), () => (alert("You canceled the execution.")) );
 
+``` 
+
+
+---
+---
+
+
+## Advance part 1  
+
+### การเขียน Code ( slide 24 )  
++ 1.10. แบบฝึกหัด
+    + แก้ไขการเขียนโค้ดต่อไปนี้ (จัดโค้ดใหม่)
+> 📙 `answer.`     
+```javascript
+function pow(x, n) {
+  let result = 1;
+  for(let i = 0 ; i < n ; i++) {
+      result *= x;
+      }
+  return result;
+}
+
+let x = prompt("x?", ''), n = prompt("n?", '');
+
+if (n <= 0) {
+  alert(`Power ${n} is not supported, please enter an integer number greater than zero`);
+} else {
+  alert(pow(x, n));
+}
 ```  
+
+### Object ( slide 53 )  
++ 1.ให้สร้าง Object แบบ Object Iteral โดยให้กำหนดตัวแปรชื่อ human  
++ โดยมี Properties ทั้ง 5 อย่าง ชื่อของผู้เรียน เป็น String  
+    + a.อายุของผู้เรียนเป็น number  
+    + b.บ้านของตัวเองเป็น String  
+    + c.โสดหรือไม่โสดเป็น boolean  
+    + d.คะแนนความฉลาดของตัวเองเป็น number (เต็ม 10)  
+> 📙 `answer.`     
+```javascript
+let human = {age:15, home:'bangkok', single:'true', intelligence:0.1e2};
+``` 
+
+### Object ( slide 56 )  
++ 4.7. Computed Properties - แบบฝึกหัด  
+	+ 1.ให้เขียนโปรแกรมที่รับค่า key และ value ของ Properties ของ Object หนึ่ง   
+    + จนกว่าจะเจอคำว่า stop และนำค่าเหล่านั้นมาสร้าง Object หลังจากนั้น console.log() object นั้นออกมา   
+> 📙 `answer.`     
+```javascript
+let key = prompt('Enter key: ');
+let obj = {};
+while (key !== 'stop') {
+    let value = prompt('Enter value: ');
+    obj[key] = value;    
+    key = prompt('Enter key: ');    
+}
+console.log(obj);
+```  
+
+### Object ( slide 57 ) 
++ 4.7.Computed Properties - แบบฝึกหัด  
+	+ 2.ให้เขียนโปรแกรมที่รับค่า key และ value ของ Properties ของ Object หนึ่ง  
+    + โดยให้ key เป็นชื่อของผลไม้ และ value เป็นจำนวนของผลไม้ (number)  
+    + โดยถ้า ผลไม้ชนิดไหนที่มีมากกว่า 1 ผล ให้เติม s ไปหลัง key นั้นด้วย   
+> 📙 `answer.`     
+```javascript
+let i = 0;
+let obj = {};
+while (i < 3) { //กำหนดรับค่า สามรอบ
+    let key = prompt('Enter fruit name: ');
+    let value = prompt('Enter Number: ',2);
+    if (value > 1) {
+        key = `${key}s`;
+    }
+    obj[key] = value;
+    i++;
+}
+console.log(obj);
+```  
+
+### Object ( slide 78 )  
++ 4.18. แบบฝึกหัด  
+    + 1.ให้ทำตามคำสั่งต่อไปนี้  
+        + a.สร้าง Object เปล่าขึ้นมา  
+        + b.เพิ่ม properties name เข้าไปและให้ value เป็น “Sonter”  
+        + c.เพิ่ม properties surname เข้าไปและให้ value เป็น “Pakorn”  
+        + d.เปลี่ยน properties name เป็น “Boy”  
+        + e.ลบ properties name ออกจาก Object  
+> 📙 `answer.`     
+```javascript
+let obj = {};
+obj = {name: 'Sonter'};
+obj = {surname: 'Pakorn'};
+obj[name] = 'boy';
+delete obj[name];
+console.log(obj);
+```  
+
+### Object ( slide 79 )  
++ 4.18. แบบฝึกหัด
+    + 2.ให้เขียนฟังก์ชันชื่อ isEmpty(obj) โดยจะมี parameters เป็น obj และ ฟังก์ชันนี้จะเช็คว่า obj  
+    + นี้มี properties ไหม ถ้ามีให้คืนค่า true ถ้าไม่มีให้คืนค่า false  
+> 📙 `answer.`     
+```javascript
+function isEmpty(obj) {
+    for (let key in obj) {
+        return false;
+    }
+    return true
+}
+console.log(isEmpty());
+```  
+
+### Object ( slide 80 )  
++ 4.18. แบบฝึกหัด  
+    + 3.การเขียนข้างล่างต่อไปนี้ Error ไหม  
+> 📙 `answer.`     
+```javascript
+const user = {
+    name: "John"
+};
+
+// does it work?
+user.name = "Pete";
+
+// it work (ไม่มีerror)
+```  
+
+### Object ( slide 81 )  
++ 4.18. แบบฝึกหัด
+    + 4.จงเขียนฟังก์ชัน sum(obj) ที่รับ obj ที่เก็บ properties โดยมี key เป็นชื่อพนักงาน  
+    + และมี value เป็นเงินเดือน ให้ฟังก์ชันคืนค่าเป็นผลรวมของเงินเดือนพนักงานทั้งหมด  
+> 📙 `answer.`     
+```javascript
+let salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130
+}
+
+function sum(obj) {
+    let value = 0;
+    for (let key in obj) {
+        value += obj[key];
+    }
+    return value;
+}
+
+console.log(sum(salaries));
+```  
+
+### Object ( slide 82 )  
++ 4.18. แบบฝึกหัด
+    + 5.จงเขียนฟังก์ชัน multiplyNumeric(obj, times) โดยถ้า properties นั้นมี value เป็น number  
+    + ให้คุณ value นั้นด้วย times ถ้าข้อมูลเเป็นอย่างอื่นไม่ต้องทำอะไร  
+> 📙 `answer.`     
+```javascript
+let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+};
+
+function multiplyNumeric(obj, times) {
+    for (let key in obj) {
+        if (typeof obj[key] !== 'number') continue;
+        obj[key] = obj[key] * times;
+    }
+}
+multiplyNumeric(menu,10);
+console.log(menu);
+```  
+
+### Methods ของ Object ( slide 100 )  
++ 6.6. แบบฝึกหัด  
+    + 1.การทำงานของ code ดังกล่าวจะได้อะไรออกมา  
+> 📙 `answer.`     
+```javascript
+let user = {
+  name: "John",
+  go: function() { alert(this.name) }
+}
+(user.go)()
+
+// แสดงค่า Error (user is not defined)
+```  
+
+### Methods ของ Object ( slide 101 )  
++ 6.6. แบบฝึกหัด  
+    + 2.การทำงานของ code ดังกล่าวจะได้อะไรออกมา  
+> 📙 `answer.`     
+```javascript
+function makeUser() {
+    return {
+        name: "John",
+        ref: this
+    };
+};
+
+let user = makeUser();
+
+alert( user.ref.name ); // What's the result?
+
+// ไม่แสดงค่าอะไร
+``` 
+
+### Methods ของ Object ( slide 102 )  
++ 6.6. แบบฝึกหัด  
+    + 3.สร้าง object calculator จาก 3 methods นี้:  
+        + read() ใช้ prompts สำหรับรับค่ามา 2 ค่าและเก็บเป็น object properties.  
+        + sum() คืนค่าผลบวกของ 2 ค่านั้น.  
+        + mul() คืนค่าผลคูณของ 2 ค่านั้น.  
+> 📙 `answer.`     
+```javascript
+let calculator = {
+    // ... your code ...
+    read(){
+        this.number1 = Number(prompt('Enter first Number: '));
+        this.number2 = Number(prompt('Enter second Number: '));
+    },
+    sum(){
+        return this.number1 + this.number2;
+    },
+    mul(){
+        return this.number1 * this.number2;
+    }
+};
+
+calculator.read();
+alert( calculator.sum() );
+alert( calculator.mul() );
+```  
+
+### Methods ของ Object ( slide 103-105 )  
++ 6.6. แบบฝึกหัด  
+    + 4.ให้ Object ชื่อ ladder มี method ขึ้น และ ลง    
+    + (ต่อ). Object ชื่อ ladder สามารถเรียก function แบบนี้ได้  
+    + (ต่อ). ดัดแปลง Object ชื่อ ladder สามารถเรียก function แบบนี้ได้  
+> 📙 `answer.`     
+```javascript
+let ladder = {
+    step: 0,
+    up() {
+        this.step++;
+        return this;
+    },
+    down() {
+        this.step--;
+        return this;
+    },
+    showStep: function() { // shows the current step
+        alert( this.step );
+    }
+};
+
+// ladder.up();
+// ladder.up();
+// ladder.down();
+// ladder.showStep(); // 1
+
+ladder.up().up().down().showStep(); // 1
+```  
+
+### Constructor กับ New ( slide 118 )  
++ 7.4. แบบฝึกหัด  
+    + 1.สร้าง constructor function ที่ใช้สำหรับสร้าง Calculator โดยต้องมี 3 Methods นี้  
+        + a.read(): รับค่าจาก propmt สองตัว  
+        + b.sum(): ให้คืนค่าจากการบวกกันของตัวแปรสองตัว  
+        + c.mul(): ให้คืนค่าจากการคูณกันของตัวแปรสองตัว  
+> 📙 `answer.`     
+```javascript
+function Calculator(){
+    this.read = function(){
+        this.number1 = Number(prompt('Enter first Number: '));
+        this.number2 = Number(prompt('Enter second Number: '));
+    },
+    this.sum = function(){
+        return this.number1 + this.number2;
+    },
+    this.mul = function(){
+        return this.number1 * this.number2;
+    }
+}
+
+let test = new Calculator();
+test.read();
+console.log(test.sum());
+console.log(test.mul());
+```  
+
+### Constructor กับ New ( slide 119 )   
++ 7.4. แบบฝึกหัด  
+    + 2.สร้าง constructor function Accumulator(startingValue)  
+        + a.โดยที่ Object ดังกล่าวควร เก็บผลรวมไว้ใน property ที่มี key ชื่อว่า value,  
+        + ค่าเริ่มต้นของ key ชื่อ value นี้ คือ startingValue  
+        + b.ฟังก์ชัน read() ควรอ่านค่าจาก propmt() และ เพิ่มค่าที่ใส่เข้ามาใน key ชื่อ value  
+        + พูดง่าย ๆ ก็คือ value คือผลรวมของ prompt โดยเริ่มจาก startingValue  
+> 📙 `answer.`     
+```javascript
+function Accumulator(startingValue) {
+    this.value = startingValue;
+    this.read = function(){
+        let num = Number(prompt('Enter Number: '));
+        this.value += num
+    }
+}
+
+let sum = new Accumulator(10);
+sum.read();
+console.log(`allSum.value = ${sum.value}`);
+``` 
+
+---
+
+## Advance part 2  
+
+### 
+
+> 📙 `answer.`     
+```javascript
+
+```
