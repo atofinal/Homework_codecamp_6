@@ -1470,6 +1470,34 @@ console.log(array2);
 
 > 📙 `answer.`     
 ```javascript
+// 1.5 
+let array1 = [
+      { name: "apple", age: 14 },
+      { name: "banana", age: 18 },
+      { name: "watermelon", age: 32 },
+    ]
+// array2 ["apple", "banana", "watermelon"]
+
+let array2 = array1.map((item,i,arr) => arr[i]['name'] );
+console.log(array2);
+```  
+
+> 📙 `answer.`     
+```javascript
+// 1.6 
+let array1 = [
+      { name: "apple", age: 14 },
+      { name: "banana", age: 18 },
+      { name: "watermelon", age: 32 },
+    ]
+// array2 [14, 18, 32] 
+
+let array2 = array1.map((item,i,arr) => arr[i]['age'] );
+console.log(array2);
+```  
+
+> 📙 `answer.`     
+```javascript
 // 1.7 
 let array1 = [
       { name: "apple", surname: "London" },
@@ -1512,28 +1540,319 @@ let array2 = array1.map(a => a.toFixed(2) );
 console.log(array2);
 ```  
 
-
-
-
-
-
-
-
-
-
----
-
 > 📙 `answer.`     
 ```javascript
+// 1.11 
+let array1 = [
+       { name: "apple", birth: "2000-01-01" },
+       { name: "banana", birth: "1990-10-01" },
+       { name: "watermelon", birth: "1985-12-01" },
+     ]
+//  array2 [
+//    { name: "apple", birth: "2000-01-01", age: 19 },
+//    { name: "banana", birth: "1990-10-01", age: 29 },
+//    { name: "watermelon", birth: "1985-12-01", age: 33 },
+//  ]
 
-
-let array2 = array1.map(a =>  );
+let age = [19,29,33];
+let array2 = array1;
+array2.map((item,i,arr) => arr[i]['age'] = age[i]);
 console.log(array2);
 ```  
 
+> 📙 `answer.`     
+```javascript
+// 1.12 
+let array1 = [
+       { name: "apple", birth: "2000-01-01" },
+       { name: "banana", birth: "1990-10-10" },
+       { name: "watermelon", birth: "1985-12-30" },
+     ]
+// array2 [
+//     "<tr>
+//     <td>apple</td> 
+//     <td>01 jan 2000</td>
+//     </tr>",
+//     "<tr> <td>banana</td> <td>10 oct 1990</td> </tr>",
+//     "<tr> <td>watermelon</td> <td>30 dec 1985</td> </tr>",
+// ]
 
+// let options = {day: 'numeric', month: 'short', year: 'numeric'};
+// let array2 = array1.map((item,i,arr) => `<tr> <td>${arr[i].name}</td><td>${new Intl.DateTimeFormat('th-TH', options).format(new Date(arr[i].birth))}</td> </tr>` );
+
+// let shortMonth = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+let shortMonth2 = ["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"];
+let array2 = array1.map((item,i,arr) => `<tr> <td>${arr[i].name}</td> <td>${(new Date(arr[i].birth)).getDate() < 10 ? '0'+(new Date(arr[i].birth)).getDate():(new Date(arr[i].birth)).getDate()} ${shortMonth2[(new Date(arr[i].birth)).getMonth()]} ${(new Date(arr[i].birth)).getFullYear()}</td> </tr>` );
+console.log(array2); // ☺☺☺☺☺
+```  
+
++ ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.filter()  
+> 📙 `answer.`     
+```javascript
+// 2.1  
+let array1 = [1, 2, 30, 400] ;
+// array2 [30, 400] // filter เลขที่มากกว่า 10
+
+let array2 = array1.filter(x => x > 10 );
+console.log(array2);
+```  
 
 > 📙 `answer.`     
 ```javascript
+// 2.2  
+let array1 = [1, 2, 3, 4]
+// array2 [1, 3] // filter เลขคี่
 
+let array2 = array1.filter(x => x % 2 !== 0 );
+console.log(array2);
 ```  
+
+> 📙 `answer.`     
+```javascript
+// 2.3  
+let array1 = [1, "1", 2, {}] 
+// array2 [1, 2] // filter Number
+
+let array2 = array1.filter(x => typeof x === 'number' );
+console.log(array2);
+```  
+
+> 📙 `answer.`     
+```javascript
+// 2.4  
+let array1 = ["apple", "banana", "orange", "pineapple", "watermeon"]
+// array2 ["pineapple", "watermeon"] // filter ตัวอักษร > 6
+
+let array2 = array1.filter(x => x.length > 6 );
+console.log(array2);
+```  
+
+> 📙 `answer.`     
+```javascript
+// 2.5 
+let array1 = [
+      { name: "apple", age: 14 },
+      { name: "banana", age: 18 },
+      { name: "watermelon", age: 32 },
+      { name: "pineapple", age: 16 },
+      { name: "peach", age: 24 },
+    ]
+// array2 [
+//     { name: "apple", age: 14 },
+//     { name: "pineapple", age: 16 },
+// ] // filter age < 18
+
+let array2 = array1.filter((cur,i,arr) => arr[i]['age'] < 18 );
+console.log(array2);
+```  
+
+> 📙 `answer.`     
+```javascript
+// 2.6 
+let array1 = [
+      { name: "apple", age: 14 },
+      { name: "banana", age: 18 },
+      { name: "watermelon", age: 32 },
+      { name: "pineapple", age: 16 },
+      { name: "peach", age: 24 },
+    ]
+// array2 [
+//     { name: "apple", age: 14 },
+//     { name: "banana", age: 18 },
+//     { name: "pineapple", age: 16 },
+//     { name: "peach", age: 24 },
+// ] // filter ไม่เอาคนที่อายุ 32
+
+let array2 = array1.filter((cur,i,arr) => arr[i]['age'] !== 32 );
+console.log(array2);
+``` 
+
+> 📙 `answer.`     
+```javascript
+// 2.7  
+let array1 = [1, -3, 2, 8, -4, 5]
+// array2 [1, 2, 8, 5] // filter เลขบวก
+
+let array2 = array1.filter(x => x > 0 );
+console.log(array2);
+```  
+
+> 📙 `answer.`     
+```javascript
+// 2.8  
+let array1 = [1,3,4,5,6,7,8]
+//  array2 [3, 6] // filter เลขหาร 3 ลงตัว
+
+let array2 = array1.filter(x => x % 3 === 0 );
+console.log(array2);
+```  
+
+> 📙 `answer.`     
+```javascript
+// 2.9  
+let array1 = ["peach", 1, -3, "2", {}, []]
+//  array2 ["peach", "2"] // filter string
+
+let array2 = array1.filter(x => typeof x === 'string' );
+console.log(array2);
+```  
+
+> 📙 `answer.`     
+```javascript
+// 2.10 
+let array1 = ["APPLE", "appLE", "PEACH", "PEach"]
+//  array2 = ["APPLE", "PEACH"] // filter คำที่เป็นอักษรใหญ่ทุกตัว
+
+let array2 = array1.filter(x => x === x.toUpperCase() );
+console.log(array2);
+```  
+
+> 📙 `answer.`     
+```javascript
+// 2.11 
+let array1 = [
+       { name: "apple", birth: "2001-01-01" },
+       { name: "banana", birth: "1990-10-10" },
+       { name: "watermelon", birth: "1985-12-30" },
+       { name: "peach", birth: "2002-10-13" },
+     ]
+//  array2 [
+//    { name: "banana", birth: "1990-10-10" },
+//      { name: "peach", birth: "2002-10-13" },
+//  ] // filter คนเกิดเดือน 10
+
+// /** In JavaScript, the first month (January) is month number 0, so December returns month number 11. */
+let array2 = array1.filter((cur,i,arr) => (new Date(arr[i]['birth']).getMonth()) === (10-1));
+console.log(array2);
+```  
+
+> 📙 `answer.`     
+```javascript
+// 2.12 
+let array1 = [
+       { name: "apple", birth: "2001-01-01" },
+       { name: "banana", birth: "1990-10-10" },
+       { name: "watermelon", birth: "1985-12-30" },
+       { name: "peach", birth: "2002-10-13" },
+     ]
+//  array2 [
+//    { name: "banana", birth: "1990-10-10" },
+//    { name: "watermelon", birth: "1985-12-30" },
+//  ] // filter คนเกิดก่อนปี 2000
+
+let array2 = array1.filter((cur,i,arr) => (new Date(arr[i]['birth']).getFullYear()) < 2000);
+console.log(array2);
+```  
+
+### Map และ Set ( slide 168 )  
++ 6.10. แบบฝึกหัด  
+    + 1.ให้ arr เป็น Array สร้าง function ชื่อ unique(arr) ให้คืนค่าเป็น unique items ของ arr  
+> 📙 `answer.`     
+```javascript
+function unique(arr) {
+  /* your code */
+    [...arr] = new Set(arr)
+    return arr;
+}
+let values = ["Hare", "Krishna", "Hare", "Krishna", "Krishna", "Krishna", "Hare", "Hare", ":-O" ];
+
+alert( unique(values) ); // Hare, Krishna, :-O
+console.log(unique(values));
+```  
+
+### Map และ Set ( slide 169 )  
++ 6.10. แบบฝึกหัด  
+    + 2.Anagram เป็นตัวอักษรที่มีจำนวนตัวอักษรแต่ละตัวที่เท่ากัน แต่เรียงไม่เหมือนกัน ( **Optional** )  
+    + nap - pan  
+    + ear - are - era  
+    + cheaters - hectares - teachers  
+> 📙 `answer.`     
+```javascript
+function aclean(a) {
+    let arr1 = [];
+    let arr2 = [];        
+    for (let i=0; i < a.length; i++) {        
+        let newArr = a.filter(x => x.length === a[i].length && [...(x.toLowerCase())].sort().join() === [...(a[i].toLowerCase())].sort().join());           
+        if (newArr.length > 1) {            
+            arr1.push(newArr[0]);
+            arr2.push(newArr[1]);
+        }        
+    }
+    [...arr1] = new Set(arr1);
+    [...arr2] = new Set(arr2);
+    return (`"${arr1}" or "${arr2}"`)
+}
+let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+
+alert( aclean(arr) ); // "nap,teachers,ear" or "PAN,cheaters,era"  (<--นี้คือโจทย์?[slide169])
+
+console.log(aclean(arr));
+```  
+
+### Map และ Set ( slide 170 )  
++ 6.10. แบบฝึกหัด
+    + 3.เราได้ array จาก map.keys() แต่ไม่สามารถใช้ push ได้ เราจะทำยังไงให้ keys.push สามารถทำงานได้
+> 📙 `answer.`     
+```javascript
+let map = new Map();
+
+map.set("name", "John");
+
+let keys = map.keys();
+
+// Error: keys.push is not a function 
+// keys.push("more");
+
+// แปลง object keys ให้เป็น array ถึงจะ push ได้ ...หรือไม่ก็ ตามโค้ดด้านล่าง (ไม่รู้เข้าใจถูกไหมนะครับ)
+let arr = [];
+for (let i of keys) {
+    arr.push(i);
+}
+arr.push("more");
+
+console.log(arr);
+```  
+
+### Keys, Values และ Entities ( slide 175 )  
++ 7.2. แบบฝึกหัด  
+    + 1.กำหนดให้ salaries เป็น Object ให้เขียนฟังก์ชัน sumSalaries(salaries)   
+    + ที่คืนค่าเป็นผลผมรวมของเงินเดือน ถ้า salaries ไม่มีสมาชิก ให้คืนค่าเป็น 0  
+> 📙 `answer.`     
+```javascript
+let salaries = {
+  "John": 100,
+  "Pete": 300,
+  "Mary": 250
+};
+
+function sumSalaries(salaries) {
+    let arrValues = Object.values(salaries)  
+    if (arrValues.length < 1) {
+        return 0;
+    }  
+    return arrValues.reduce((a,b) => a + b);
+}
+
+alert( sumSalaries(salaries) ); // 650
+console.log(sumSalaries(salaries));
+```  
+
+### Keys, Values และ Entities ( slide 176 )  
++ 7.2. แบบฝึกหัด  
+    + 2.ให้เขียนฟังก์ชัน count(obj) ที่คืนค่าเป็นจำนวน properties ใน object  
+> 📙 `answer.`     
+```javascript
+let user = {
+  name: 'John',
+  age: 30
+};
+
+function count(obj) {
+    let arrProps = Object.keys(obj);    
+    return arrProps.length;    
+}
+
+alert( count(user) ); // 2
+console.log(count(user));
+```  
+
